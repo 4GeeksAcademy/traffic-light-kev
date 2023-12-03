@@ -1,0 +1,78 @@
+/* Design Byron Canga */
+.palito {
+  background: linear-gradient(
+    90deg,
+    hsla(0, 0%, 22%, 1) 26%,
+    hsla(0, 0%, 79%, 1) 52%,
+    hsla(0, 0%, 16%, 1) 76%
+  );
+  width: 10px;
+  height: 150px;
+}
+.cuerpo {
+  background: linear-gradient(
+    90deg,
+    hsla(0, 0%, 0%, 1) 0%,
+    hsla(0, 0%, 79%, 1) 14%,
+    hsla(0, 0%, 0%, 1) 32%,
+    hsla(0, 0%, 0%, 1) 70%,
+    hsla(0, 0%, 79%, 1) 86%,
+    hsla(0, 0%, 24%, 1) 100%
+  );
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  gap: 10px;
+  padding: 20px 0px;
+}
+
+.rojo {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    hsla(0, 100%, 50%, 1) 26%,
+    hsla(0, 100%, 42%, 1) 52%,
+    hsla(0, 100%, 50%, 1) 76%
+  );
+  cursor: pointer;
+  border: 2px solid rgb(255, 158, 158);
+}
+.amarillo {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    hsla(47, 100%, 50%, 1) 26%,
+    hsla(47, 100%, 44%, 1) 51%,
+    hsla(47, 100%, 50%, 1) 76%
+  );
+  cursor: pointer;
+  border: 2px solid rgb(255, 248, 173);
+}
+.verde {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    hsla(113, 100%, 50%, 1) 26%,
+    hsla(113, 100%, 43%, 1) 52%,
+    hsla(113, 100%, 50%, 1) 76%
+  );
+  cursor: pointer;
+  border: 2px solid rgb(177, 255, 183);
+}
+.ligth-red {
+  box-shadow: 0px 0px 10px 10px rgba(255, 0, 0, 0.7);
+}
+.ligth-yellow {
+  box-shadow: 0px 0px 10px 10px rgba(251, 255, 0, 0.7);
+}
+.ligth-green {
+  box-shadow: 0px 0px 10px 10px rgba(0, 255, 8, 0.7);
+}
